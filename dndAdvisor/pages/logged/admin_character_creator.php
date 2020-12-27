@@ -1,13 +1,8 @@
-<?php 
+<?php
   session_start();
-    if (!isset($_SESSION['logged']['email']) || $_SESSION['logged']['status'] != '1'){
-      $_SESSION['error'] = "Twoje konto jest zablokowane lub nieaktywne, proszę sprawdzić swój email";
-      header('location:../../index.php');
-    }
-    else if($_SESSION['logged']['permission'] != 1 && $_SESSION['logged']['permission'] != 2)
-    {
-      header('location:../../pages/logged/user.php');
-    }
+  if (!isset($_SESSION['logged']['email']) || $_SESSION['logged']['status'] != '1') {
+    header('location: ../../index.php');
+  }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -51,7 +46,8 @@
     <!-- Main content -->
 
     <?php 
-      require_once('../../pages/layout/admin/content_admin_user_info.php');
+      require_once('../../pages/layout/content_character_creator_form.php');
+      require_once('../../pages/layout/admin/content_admin_character_creator.php');
     ?>
 
     <!-- /.content -->
@@ -82,3 +78,10 @@
 <script src="../../dist/js/demo.js"></script>
 </body>
 </html>
+<style>
+.center {
+  margin: auto;
+  width: 25%;
+  /* border: 3px solid #73AD21; */
+}
+</style>

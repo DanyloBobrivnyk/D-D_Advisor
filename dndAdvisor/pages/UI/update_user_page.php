@@ -29,7 +29,7 @@
 
   <!-- Main Sidebar Container -->
   <?php
-    require_once('../../pages/layout/admin/aside_admin.php');              
+    require_once('../../pages/layout/admin/asides/aside_admin_edit_page.php');              
   ?>
   <!-- /.Main Sidebar Container -->
 
@@ -38,7 +38,7 @@
     <!-- Content Header (Page header) -->
 
     <?php
-      require_once('../../pages/layout/admin/content_header_main_page_admin.php');              
+      require_once('../../pages/layout/admin/headers/content_header_admin_edit_page.php');              
     ?>
 
     <!--../../Header-->
@@ -46,7 +46,7 @@
     <!-- Main content -->
 
     <?php 
-      require_once('../../pages/layout/content_update_user_form_new.php');
+      require_once('../../pages/layout/content_update_user_form.php');
     ?>
 
     <!-- /.content -->

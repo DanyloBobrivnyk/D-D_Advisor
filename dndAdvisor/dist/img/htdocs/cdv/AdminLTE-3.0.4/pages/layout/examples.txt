@@ -1,0 +1,4 @@
+<td><span class="badge badge-success">Shipped</span></td>
+<td><span class="badge badge-warning">Pending</span></td>
+<td><span class="badge badge-danger">Delivered</span></td>
+<td><span class="badge badge-info">Processing</span></td>

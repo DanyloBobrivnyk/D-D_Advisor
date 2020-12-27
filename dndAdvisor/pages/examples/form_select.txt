@@ -1,0 +1,26 @@
+echo <<<USER_STATUS
+                            <label for="exampleInputStatus1">Status</label>
+                            <div class="input-group input-group-lg mb-3">
+                            <div class="input-group-prepend">
+                            <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
+                            $currentStatus
+                            </button>
+                            <ul class="dropdown-menu">
+                            USER_STATUS;
+                            require_once "../../scripts/connect.php";
+                            if($conn->connect_errno == 0)
+                            {
+                                $statusList = mysqli_query($conn, "SELECT * FROM status");
+                                while($rowRace=mysqli_fetch_array($statusList))
+                                {
+                                    echo '<li class="dropdown-item" button type="button" >'.$rowRace['status_name'].- $rowRace['status_id'].'</li>' ;
+                                }
+                            }
+                            echo<<<USER_STATUS
+                                <li class="dropdown-divider"></li>
+                                <li class="dropdown-item"><a href="#">Separated link</a></li>
+                            </ul>
+                            </div>
+                            <!-- /btn-group -->
+                            </div>
+                            USER_STATUS;

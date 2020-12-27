@@ -10,4 +10,4 @@ Back-end functionality was checked via XAMPP.
 Scripts and database connection are available in "scripts" folder.
 Database - PHPMyAdmin which is the one of the XAMPP modules.
 
-Database structure (beta): ![alt text](https://github.com/[DanyloBobrivnyk]/[D-D_Advisor]/blob/[main]/db_Structure_image.jpg?raw=true)
+Database structure (beta): ![alt text](https://github.com/[DanyloBobrivnyk]/[D-D_Advisor]/blob/[main]/db_Structure_image.png?raw=true)

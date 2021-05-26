@@ -4,7 +4,7 @@ This is one of my first web-pages in PHP. The whole purpose of it is to show one
 	Contains basic functionality such as:<br>
 	**Adding editing, deleting, promoting** users etc.<br>
 	As the extra feature was added small character creator. User may choose story, race, class and character abilities.
-
+### You may test this page with administrator permissions. Just login with test123@gmail.com and use 123 password
 ## How it was developed.
 This project is based on free Bootstrap Admin Dashboard Template ADMIN LTE. Official web page: https://adminlte.io/<br>
   Whole functionality was implemented in XAMPP. httpd.conf file wasn't changed.<br>

@@ -7,7 +7,7 @@ This is one of my first web-pages in PHP. The whole purpose of it is to show one
 ### You may test this page with administrator permissions. Just login with test123@gmail.com and use 123 password
 ## How it was developed.
 This project is based on free Bootstrap Admin Dashboard Template ADMIN LTE. Official web page: https://adminlte.io/<br>
-  Whole functionality was implemented in XAMPP. httpd.conf file wasn't changed.<br>
+  Whole functionality was hosted via XAMPP. httpd.conf file wasn't changed.<br>
 	Scripts and database connection are available in "scripts" folder.<br>
   Database - PHPMyAdmin which is the one of the XAMPP modules.<br>
 	If you would like to install example of my database, there is a file in repository (strona_dd.sql)<br> 
